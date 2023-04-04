@@ -7,8 +7,9 @@ body{
     border: 5px solid greenyellow;
     border-radius: 5px;
     height: 1900px;
-    background-image: url("https://w0.peakpx.com/wallpaper/992/715/HD-wallpaper-gojo-badass-jujutsu-kaisen-jjk-thumbnail.jpg");
+    background-image: url("./img/img.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     border-style: inset;
 }
