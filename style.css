@@ -1,0 +1,240 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body{
+    border: 5px solid greenyellow;
+    border-radius: 5px;
+    height: 1900px;
+    background-image: url("https://w0.peakpx.com/wallpaper/992/715/HD-wallpaper-gojo-badass-jujutsu-kaisen-jjk-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: inset;
+}
+.container{
+    border: 5px solid green;
+    height: 1900px;
+    border-style: outset;
+}
+.boxs{
+    display: flex;
+    position: absolute;
+}
+ .firstbox, .secondbox,  .thirdbox{
+    border: 7px solid red;
+}
+.firstbox{
+    position: relative;
+    top: 20px;
+    font-size: 2rem;
+    left:20px;
+    color: white;
+    margin-bottom: 200px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: black;
+}
+.secondbox{
+    position: relative;
+    top: 35px;
+    color: white;
+    right:180px;
+    font-size: 2rem;
+    margin-bottom: 310px;
+    border-radius: 50px;
+    background-color: black;
+    padding: 20px 60px 0 60px;
+}
+.thirdbox{
+    position: relative;
+    font-size: 2rem;
+    top: 10px;
+    border-radius: 20px;
+    padding: 20px 90px 0 90px;
+    color: white;
+    background-color: black;
+    margin-bottom: 170px;
+    left:25px;
+}
+div .form{
+    background-color: white;
+    position: relative;
+    top: 300px;
+    left: 750px;
+    display: inline-block;
+    text-align: center;
+    border: 5px dashed red;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+.form input::placeholder{
+    text-align: center;
+}
+.form button{
+    padding: 4px;
+    border-radius: 5px;
+}
+.form .reset{
+    padding: 5px;
+    border-radius: 3px;
+}
+div .form label{
+    color: red;
+}
+.form h1{
+    color: red;
+    padding: 10px 20px 10px 20px;
+}
+div .zero{
+    position: relative;
+    right: 450px;
+    top: 180px;
+    background-color: rgb(34, 199, 199);
+    display: inline-block;
+    padding: 100px 0 100px 0;
+    border: 5px solid gray;
+    border-radius: 100%;
+}
+div .zero h2{
+    padding: 20px;
+    text-align: center;
+}
+.menu h1{
+    position: relative;
+    top: 240px;
+    left: 490px;
+    text-align: center;
+    width: 400px;
+    border-radius: 30px;
+    padding: 15px 40px 15px 40px;
+    display: inline-block;
+    border: 10px solid red;
+    color: white;
+    background: black;
+}
+.hr{
+    position: relative;
+    top: 340px;
+}
+.foodbox hr {
+    position: relative;
+    top: -14px;
+    left: -20px;
+    width: 111%;
+}
+.foodbox .menu-box hr {
+    position: absolute;
+    top: 100px;
+    left: -1px;
+    width: 100%;
+    size: 0;
+}
+.foodbox {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 2rem;
+    padding: 10px;
+}
+.foodbox .menu-box h1{
+    font-size: 3rem;
+    color:rgb(0, 0, 138);
+    margin: 20px 10px 20px 10px;
+}
+.foodbox .menu-box{
+    text-align: center;
+    margin: 10px 40px 10px 40px;
+    padding: 10px 20px 40px 20px;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 3px solid green;
+    position: relative;
+    top: 280px;
+}
+.foodbox .menu-box ul{
+    padding-left: 20px;
+    margin-top: 30px;
+    color:rgb(0, 0, 138);
+}
+.foodbox .menu-box .last-box{
+    margin-top: 55px;
+}
+.foodbox .menu-last-box{
+    position: relative;
+    top: 290px;
+    left: 40px;
+    height: 100%;
+    width: 350px;
+    background-color: aqua;
+    text-align: center;
+    border: 3px solid green;
+    /* margin: 10px 40px 10px 40px; */
+    padding: 10px 20px 0px 20px;
+    border-radius: 20px;
+}
+.menu-last-box h1{
+    font-size: 3rem;
+    margin: 20px 10px 35px 10px;
+    color:rgb(0, 0, 138);
+}
+.menu-last-box ul{
+    padding-left: 20px;
+}
+
+/* 
+body{
+    background: url("https://wallpaperaccess.com/full/2931362.jpg") no-repeat;
+    background-size: auto;
+    border: 5px solid greenyellow;
+    border-style: inset;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.container{
+    border: 5px solid yellowgreen;
+    display: flex;
+    border-style: outset;
+}
+.boxs{
+    display: flex;
+    position: absolute;
+}
+.boxs .firstbox{
+    border: 5px solid red;
+    border-radius: 20px;
+    margin: 200px 0 600px 105px;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px 20px 20px 20px;
+}
+.boxs .secondbox{
+    position: relative;
+    right: 150px;
+    top: 30px;
+    height: 30px;
+    border: 5px solid red;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px 60px 20px 60px;
+}
+.thirdbox{
+    position: relative;
+    left: 435px;
+    font-size: 1.3rem;
+    border: 5px solid red;
+    border-radius: 20px;
+    margin: 20px 20px 40px 0;
+    background-color: black;
+    color: white;
+    padding: 10px 60px 0 60px;
+}
+.container form{
+    position: relative;
+    border: 5px solid red;
+    padding: 10px 50px 10px 50px;
+    top: 500px;
+    right: 300px;
+} */
