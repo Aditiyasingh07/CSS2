@@ -6,7 +6,7 @@
 body{
     border: 15px groove green;
     height: 2050px;
-    background-image: url("./img/img.png");
+    background-image: url("./img/img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -105,82 +105,40 @@ div .zero h2{
 .hr{
     margin-top: -30px;
 }
-.foodbox {
+.menu-box{
+    border: 5px solid green;
+    background-color: aqua;
+    height: 290px;
+    border-radius: 30px;
+    width: 430px;
+}
+.foodbox{
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 80px;
-    justify-content: space-evenly;
+    row-gap: 80px;
+    justify-content: space-around;
 }
-.starter{
-    width: 280px;
+.foodbox .line{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
 }
-.foodbox .menu-box h1{
-    font-size: 3rem;
-    color:rgb(0, 0, 138);
-    margin: 20px 10px 20px 10px;
-}
-.foodbox .menu-box{
+.foodbox h1{
     text-align: center;
-    margin-top: 40px;
-    padding: 10px 20px 40px 20px;
-    background-color: aqua;
-    border-radius: 20px;
-    border: 3px solid green;
+    margin: 20px 0;
+    color: rgb(6, 6, 255);
+    margin-top: 24px;
+    font-size: 3.2rem;
 }
-.foodbox .menu-box ul{
-    padding-left: 20px;
-    margin-top: 30px;
-    color:rgb(0, 0, 138);
+.foodbox ul{
+    padding-left: 30px;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 117);
 }
-.foodbox .menu-last-box{
-    height: 320px;
-    margin-top: 40px;
-    width: 350px;
-    background-color: aqua;
+.foodbox ul li{
     text-align: center;
-    border: 3px solid green;
-    padding: 10px 20px 20px 20px;
-    border-radius: 20px;
 }
-.menu-last-box .last-box{
-    margin-bottom: 40px;
-}
-.menu-last-box h1{
-    font-size: 3rem;
-    margin: 20px 10px 20px 10px;
-    color:rgb(0, 0, 138);
-}
-.menu-last-box ul{
-    padding-left: 20px;
-}
-.box-4, .box-5{
-    height: 250px;
-}
-.last{
-    height: 400px;
-    color:rgb(0, 0, 138);
-}
-.last hr{
-    margin-bottom: 30px;
-}
-.foodbox hr{
-    width: 113%;
-    position: relative;
-    right: 20px;
-}
-.foodbox .hr6{
-    width: 111%;
-    position: relative;
-    right: 20px;
-}
-.foodbox .hr3{
-    position: relative;
-    width: 111%;
-    right: 20px;
-}
-.foodbox .hr5{
-    width: 111%;
-    position: relative;
-    right: 20px;
+.last-box{
+    height: 350px;
 }
